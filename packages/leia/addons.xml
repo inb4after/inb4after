@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 	
-<addon id="plugin.video.seren" version="2.0.16+BetterSkipIntro" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-BetterSkipIntro" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -229,7 +229,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+BetterStillWatching" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-BetterStillWatching" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -457,7 +457,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+CollectionSortDir" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-CollectionSortDir" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -685,7 +685,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+DefaultSkinMod" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-DefaultSkinMod" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -913,7 +913,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+DoNothingExitPlayer" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-DoNothingExitPlayer" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -1141,7 +1141,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+master" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-master" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -1369,7 +1369,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+NextUpSortDir" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-NextUpSortDir" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -1597,7 +1597,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+PlaybackEndedDefaultAction" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-PlaybackEndedDefaultAction" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -1825,7 +1825,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+SeparateMinSources" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-SeparateMinSources" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -2053,7 +2053,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16+SkipIntro" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.16-SkipIntro" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
