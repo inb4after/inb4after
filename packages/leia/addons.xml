@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 	
-<addon id="plugin.video.seren" version="2.0.16-BetterSkipIntro" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-BetterSkipIntro" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -63,6 +63,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -227,16 +252,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-BetterStillWatching" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-BetterStillWatching" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -291,6 +317,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -455,16 +506,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-CollectionSortDir" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-CollectionSortDir" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -519,6 +571,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -683,16 +760,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-DefaultSkinMod" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-DefaultSkinMod" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -747,6 +825,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -911,16 +1014,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-DoNothingExitPlayer" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-DoNothingExitPlayer" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -975,6 +1079,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -1139,16 +1268,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-master" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-master" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -1203,6 +1333,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -1367,16 +1522,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-NextUpSortDir" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-NextUpSortDir" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -1431,6 +1587,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -1595,16 +1776,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-PlaybackEndedDefaultAction" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-PlaybackEndedDefaultAction" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -1659,6 +1841,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -1823,16 +2030,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-SeparateMinSources" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-SeparateMinSources" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -1887,6 +2095,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -2051,16 +2284,17 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.16-SkipIntro" name="Seren" provider-name="inb4after">
+<addon id="plugin.video.seren" version="2.0.17-SkipIntro" name="Seren" provider-name="inb4after">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="1.0.3"/>
+        <import addon="context.seren" version="2.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -2115,6 +2349,31 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.17:
+            Fix for shows search and TVDB empty data
+            Fix handling of timestamp creation to be UTC compliant
+            Fix timezone code taking unix path on Windows
+            Added a fall through for android getprop timezone detection
+            Handle invalid dates from metadata indexer when obtaining year value.
+            Fix Matrix UI spins on closing download manager
+            Add check for invalid list position in download manager returned by an empty list
+            Fix isFolder bool for download manager
+            Fix resume progress indicators
+            Calculate resumetime at bookmark insert for movies
+            Add support for clearing bookmarks on Matrix
+            Fix view_type has no attribute isdigit bug
+            Ensure studio info value in seasons/episodes
+            Add provider package version information to existing logging item
+            Handle removal of legacy provider meta file both on uninstall and upgrade
+            Replaced seekTime with execute of BigSkipForward
+            Fix Simplejson decode error not caught bug
+            Handle exception instances from a4ksubtitles
+            Fix pagination for genre multi-select
+            Fix paging of Finish Watching has same items bug
+            Fixed show pack suffixes and checking of 1x1 episode naming
+            Updated missing codes and added it-IT, fr-FR and ar-SA translations
+            Update Danish language strings
+
             Changelog 2.0.16:
             Fix addon update check
             Fix trakt module attempting to refresh when not authorised
@@ -2279,6 +2538,7 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+
 </addon>
 
 <addon id="repository.inb4after" name="inb4after Repository" version="1.0.0" provider-name="inb4after">
