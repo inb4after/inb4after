@@ -1,0 +1,16 @@
+[submodule "packages/leia/plugin.video.seren"]
+	path = packages/leia/plugin.video.seren
+	url = https://github.com/inb4after/plugin.video.seren
+	branch = master
+[submodule "packages/matrix/plugin.video.seren"]
+	path = packages/matrix/plugin.video.seren
+	url = https://github.com/inb4after/plugin.video.seren
+	branch = master
+[submodule "packages/nexus/plugin.video.seren"]
+	path = packages/nexus/plugin.video.seren
+	url = https://github.com/inb4after/plugin.video.seren
+	branch = master
+[submodule "packages/omega/plugin.video.seren"]
+	path = packages/omega/plugin.video.seren
+	url = https://github.com/inb4after/plugin.video.seren
+	branch = master
