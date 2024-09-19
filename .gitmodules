@@ -14,3 +14,19 @@
 	path = packages/omega/plugin.video.seren
 	url = https://github.com/inb4after/plugin.video.seren
 	branch = master
+[submodule "packages/leia/context.seren"]
+	path = packages/leia/context.seren
+	url = https://github.com/SerenKodi/context.seren
+	branch = master
+[submodule "packages/matrix/context.seren"]
+	path = packages/matrix/context.seren
+	url = https://github.com/SerenKodi/context.seren
+	branch = master
+[submodule "packages/nexus/context.seren"]
+	path = packages/nexus/context.seren
+	url = https://github.com/SerenKodi/context.seren
+	branch = master
+[submodule "packages/omega/context.seren"]
+	path = packages/omega/context.seren
+	url = https://github.com/SerenKodi/context.seren
+	branch = master
