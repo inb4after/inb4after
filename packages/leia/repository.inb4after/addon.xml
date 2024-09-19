@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.inb4after" name="inb4after Repository" version="1.0.0" provider-name="inb4after">
+<addon id="repository.inb4after" name="inb4after Repository" version="1.1" provider-name="inb4after">
 	<extension point="xbmc.addon.repository" name="inb4after Repository">
-		<dir minversion="18.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/inb4after/inb4after/master/packages/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/leia/</datadir>
+		<dir minversion="18.0.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/leia/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/inb4after/inb4after/master/packages/leia/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/leia/zips/</datadir>
 		</dir>
-		<dir minversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/matrix/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/inb4after/inb4after/master/packages/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/matrix/</datadir>
+		<dir minversion="18.9.0" maxversion="19.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/matrix/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/inb4after/inb4after/master/packages/matrix/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/matrix/zips/</datadir>
+		</dir>
+		<dir minversion="19.9.0" maxversion="20.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/nexus/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/inb4after/inb4after/master/packages/nexus/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/nexus/zips/</datadir>
+		</dir>
+		<dir minversion="20.9.0" maxversion="21.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/omega/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/inb4after/inb4after/master/packages/omega/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/inb4after/inb4after/master/packages/omega/zips/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
